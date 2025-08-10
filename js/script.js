@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let carouselStates = {
     testimonial: { currentSlide: 0, totalSlides: 6, autoInterval: null }, // 6 testimoni
     images: { currentSlide: 0, totalSlides: 3, autoInterval: null },      // 3 gambar
-    videos: { currentSlide: 0, totalSlides: 4, autoInterval: null }       // 4 video
+    videos: { currentSlide: 0, totalSlides: 5, autoInterval: null }       // 5 video
 };
 
 function updateCarousel(type, slideIndex) {
